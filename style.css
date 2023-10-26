@@ -41,7 +41,7 @@ main>div>a{
     background-color: white;
     color: hsl(31, 77%, 52%);
 }
-.attribution{
+footer{
     position: fixed;
     left: 0;
     bottom: 0;
