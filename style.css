@@ -7,7 +7,9 @@ main{
 body{
     padding: 130px 0px;
     margin-left:190px;
-    font-family: "Lexend Deca", "Big Shoulders Display";
+}
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
 }
 .orange{
     background-color: hsl(31, 77%, 52%);
@@ -53,13 +55,18 @@ footer{
 p{
     font-weight: 200;
     margin-bottom: 50px;
+    font-family: "Lexend Deca", sans-serif;
 }
 
-@media only screen and (max-width: 375px) {
+@media (max-width: 600px) {
+    body{
+        padding: 0px 50px;
+        margin-left:0px;
+    }
     main{
         display:grid;
         grid-gap:0;
-        grid-template-columns: 370px;
+        grid-template-columns: 400px;
     }   
     .dark-cyan>a{
         background-color: white;
