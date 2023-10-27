@@ -14,6 +14,8 @@ h1{
 .orange{
     background-color: hsl(31, 77%, 52%);
     padding: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .light-cyan{
     background-color: hsl(184, 100%, 22%);
@@ -22,6 +24,8 @@ h1{
 .dark-cyan{
     background-color: hsl(179, 100%, 13%);
     padding: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 main>div>a{
     color:white;
